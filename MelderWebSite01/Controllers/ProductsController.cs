@@ -6,10 +6,14 @@ using System.Web.Mvc;
 
 namespace MelderWebSite01.Controllers
 {
-    public class HomeController : Controller
+    public class ProductsController : Controller
     {
-        // GET: Home
+        // GET: Products
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Robots(string id)
         {
             return View();
         }
