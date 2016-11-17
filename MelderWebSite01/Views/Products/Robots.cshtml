@@ -1,7 +1,14 @@
-﻿
+﻿@model PRODUCTS
 @{
-    ViewBag.Title = "Robots";
+    if (ViewBag.Title == null)
+    {
+        
+        ViewBag.Title = "Robots";
+    }
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 <h2>Robots</h2>
+<h2>@Model.USUAL_NAME</h2>
+<h3>@Model.PRICE крышек</h3>
+<p>@Model.PRODUCT_DESCRIPTION</p>
 

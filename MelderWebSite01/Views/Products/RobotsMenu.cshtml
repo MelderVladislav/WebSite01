@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "RobotsMenu";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>RobotsMenu</h2>
+@Html.ActionLink("Робот-охотник","Robots", new {id="hunter"})
+<br/>
+@Html.ActionLink("Робот-уборщик", "Robots", new { id = "cleaner" })
+<br />
+@Html.ActionLink("Робот-терпила", "Robots", new { id = "wippener" })
+<br />
+@Html.ActionLink("Робот-тостер", "Robots", new { id = "toster" })
+<br />

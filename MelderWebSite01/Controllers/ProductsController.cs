@@ -15,7 +15,11 @@ namespace MelderWebSite01.Controllers
         }
         public ActionResult Robots(string id)
         {
-            return View();
+            ProductsBaseEntities context = new ProductsBaseEntities();
+            PRODUCTS product = context.PRODUCTS.Where(c => c.URL_NAME.ToLower().Equals(id.ToLower())).ToList().FirstOrDefault();
+            if (product != null)
+                return View("Robots", product);
+            else return View("RobotsMenu");
         }
     }
 }

@@ -3,10 +3,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Восточный Центр Позитроники</title>
 </head>
 <body>
-    <p>Навигация</p>
+    @Html.ActionLink("Продукция","Robots","Products")
+    @Html.ActionLink("О нас","Index","Home")
     <div>
         @RenderBody()
     </div>
