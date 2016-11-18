@@ -210,6 +210,12 @@
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\DBImages\cleaner.jpg" />
+    <Content Include="Content\Images\DBImages\robotdrinker.jpg" />
+    <Content Include="Content\Images\DBImages\robotkiller.jpg" />
+    <Content Include="Content\Images\DBImages\robotplayer.jpg" />
+    <Content Include="Content\Images\DBImages\toster.jpg" />
+    <Content Include="Content\Images\DBImages\wippener.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -219,6 +225,7 @@
       <DependentUpon>ProductsEntity.edmx</DependentUpon>
       <LastGenOutput>ProductsEntity.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="ProductsEntity.edmx.sql" />
     <Content Include="ProductsEntity.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ProductsEntity.edmx</DependentUpon>
@@ -292,6 +299,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

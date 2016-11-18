@@ -20,6 +20,7 @@ namespace MelderWebSite01
         public string USUAL_NAME { get; set; }
         public string PRODUCT_DESCRIPTION { get; set; }
         public Nullable<decimal> PRICE { get; set; }
+        public string IMAGE { get; set; }
     
         public virtual PRODUCTS_CATEGORY PRODUCTS_CATEGORY { get; set; }
     }
