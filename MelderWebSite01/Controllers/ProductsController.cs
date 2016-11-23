@@ -15,6 +15,7 @@ namespace MelderWebSite01.Controllers
         }
         public ActionResult Robots(string id)
         {
+            //ЫВАЫВА
             ProductsBaseEntities context = new ProductsBaseEntities();
             PRODUCTS product = context.PRODUCTS.Where(c => c.URL_NAME.ToLower().Equals(id.ToLower())).ToList().FirstOrDefault();
             if (product != null)
